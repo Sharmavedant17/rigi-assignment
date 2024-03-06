@@ -5,7 +5,7 @@ export default function VideoCard({ video }) {
   return (
     <Link to={`/video/${video?.id}`}>
       <div className="flex flex-col mb-8">
-        <div className="video-container relative h-48 md:h-40 rounded-xl overflow-hidden">
+        <div className="video-container relative h-48 md:h-40 rounded-lg overflow-hidden">
           <img
             className="video-thumb h-full w-full object-cover"
             src={video?.thumb}
